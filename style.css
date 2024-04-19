@@ -84,7 +84,7 @@ left: 0;
     gap: 3rem ; 
 }
 .navitems{
-    cursor:grab;
+    cursor:pointer;
 }
 .navitems:hover{
     color: var(--secondarycolor);
@@ -103,5 +103,21 @@ main{
     row-gap: 20px;
     align-items: start;
 }
+
+.card{
+    width: 410px;
+    min-height: 400px;
+    border-radius: 5px;
+    box-shadow:0 0 10px #d4ecff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden; /*image bhr jaa rhi thi & border radius apply nhi ho rha tha so overflow hidden krke excess image hta din & ab it follows border radius  */
+}
+.card:hover{
+    background-color: #e5f1fa ;
+    transform:translateY(3px) ;
+}
+
+
 
 
