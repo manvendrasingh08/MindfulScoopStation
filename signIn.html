@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSS-Sign in</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        
+            
+        }
+
+        body{
+            color: rgb(201, 201, 201);
+            background-image: url(assets/bgi.jpg);
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+            font-size: larger;
+
+        }
+        .return a{
+            text-align: center;
+            width: 6vw;
+            height : fit-content;
+            padding : 1px 4px;
+            font-size: large;
+            background-color: #04a2d6;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .form{
+            padding:1vh 0 10vh 10vh;
+            width: 45vw;
+            height: 80vh;
+        }
+        .form-content{
+            padding: 4rem 4rem 4rem 5rem;
+            
+        }
+        h1{
+            text-align: center;
+            padding:1rem;
+        }
+        .sign-in{
+            padding: 2rem 0;
+            font-size: large;
+        }
+        .sign-in input{
+            font-size: large;
+            outline: none;
+            border: none;
+            border-bottom: solid 3px darkgray;
+            height: 5vh;
+            background-color: black;
+            width: 40vw;
+            color: rgb(211, 207, 207);
+            text-transform: uppercase;
+        }
+        ul{
+            list-style: none;
+        }
+        .button{
+            border: none;
+            cursor: pointer;
+            font-size: larger;
+            height: 3rem;
+            width: 40vw;
+            margin: 2rem 0;
+            background-color: rgb(0, 140, 191);
+        }
+        .button:hover{
+            background-color: #259cec;
+        }
+        .sign-in-help a{
+            text-decoration-color: none;
+            color :#6ac3ff
+        }
+    </style>
+</head>
+<body><main>
+    <div class="return"><a href="index.html">Home</a></div>
+</main>
+    <form class="form">
+        <div class="form-content"></div>
+        <h1>Enter your email</h1>
+        <div class="sign-in"> <input type="email" name="" id="" placeholder="Email"></div>
+        <div class="sign-in"> <input type="password" name="" id="" placeholder="Password"></div>
+        <div class="sign-in-help" style="color: white;"><ul>
+         <a href="register.html"><li>I have forgotten my email</li></a>
+         <a href="register.html"> <li>I have forgotten my password</li>
+        </ul></div>
+        <button class="button">Continue</button>
+    </form>
+</body>
+</html>
