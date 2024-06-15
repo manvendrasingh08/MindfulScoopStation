@@ -87,13 +87,14 @@ left: 0;
     height:4vh;
    background-color: var(--accentcolor);   
    cursor:pointer; 
+   border: none;
 }
 .searchbtn:hover{
     background-color: var(--acccentcolor_dark);
 }
 
 .navlink ul{
-    gap: 3rem ; 
+    gap: 2rem ; 
 }
 
 .signup ul{
@@ -106,10 +107,10 @@ left: 0;
     background-color: #ffffff;
     color: #101110;
     padding: 0.5rem 1rem;
-    border-radius: 2%;
+    border-radius: 4%;
 }
 #signup1:hover{
-background-color: #e7e5e5;
+background-color: #ffffff;
 }
 #signup2{
     padding: 0.5rem 1rem;
