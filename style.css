@@ -14,6 +14,7 @@
 
 body{
     color: var(--primarycolor);
+    background-color: rgb(255, 255, 255);
    
 }
 
@@ -38,7 +39,7 @@ ul{
 }
 
 nav{ 
-background-color: #f3faff;
+background-color: hsl(150, 38%, 49%);
 box-shadow: 0 0 2px 0 #bbd0e2;
 position: fixed;
 top: 0;
@@ -75,13 +76,17 @@ left: 0;
     height: 5vh;
     border: 2px solid lightgrey;
 }
+#searchbar-text:first-letter{
+ text-transform: capitalize;
+}
 
 .searchbtn{
     color: white;
     border-radius: 5px;
     width: 5vw ;
     height:4vh;
-   background-color: var(--accentcolor);    
+   background-color: var(--accentcolor);   
+   cursor:pointer; 
 }
 .searchbtn:hover{
     background-color: var(--acccentcolor_dark);
@@ -94,7 +99,8 @@ left: 0;
     cursor:pointer;
 }
 .navitems:hover{
-    color: var(--secondarycolor);
+    color: white;
+    text-decoration: underline 1px white;
 }
 .navitems:active{
     color: rgb(153, 0, 255);
@@ -112,16 +118,17 @@ main{
 }
 
 .card{
-    width: 410px;
-    min-height: 400px;
+    width: 350px;
+    max-height: 410px;
     border-radius: 5px;
     box-shadow:0 0 10px #d4ecff;
     transition: all 0.1s ease-in;
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
     overflow: hidden; /*image bhr jaa rhi thi & border radius apply nhi ho rha tha so overflow hidden krke excess image hta din & ab it follows border radius  */
 }
 .card:hover{
-    background-color: #e5f1fa ;
+    background-color: #b6e4f5 ;
     transform:translateY(3px) ;
 }
 
@@ -131,7 +138,7 @@ main{
     height: 200px;
 }
 .cardcontent{
-    padding: 10px;
+    padding: 3px 10px;
 }
 #news-title, #news-source{
     padding-bottom: 2px;
