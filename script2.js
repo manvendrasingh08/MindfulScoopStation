@@ -34,6 +34,7 @@ function bindData(News){
       
     //   newsImg.src = article.urlToImage;
       newsTitle.innerHTML = article.title;
+      
       newsContent.innerHTML = article.description;
 
     //   const date  = new Date(article.pubDate.toLocaleString("en-US", {
