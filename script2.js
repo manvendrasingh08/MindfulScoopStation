@@ -32,7 +32,7 @@ function bindData(News){
       const newsSrc = cardClone.querySelector('#news-source'); 
       const newsContent = cardClone.querySelector('#news-content');
       
-    //   newsImg.src = article.urlToImage;
+      newsImg.src = article.image;
       newsTitle.innerHTML = article.title;
       
       newsContent.innerHTML = article.description;
